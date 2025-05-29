@@ -17,7 +17,7 @@ namespace WiredBrain.Tests
                 .Returns((int id) => new LocationInventory
                 {
                     Id = id,
-                    LocationName = "Main Street",
+                    LocationName = "Main Street ",
                     KgDarkRoast = 5.8m,
                     KgLightRoast = 10.0m,
                     KgMediumRoast = 7.5m,
